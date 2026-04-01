@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  a = createA('hlmasson.github.io/alien/homepage', 'ENTER');
+  a = createA('homepage.html', 'ENTER');
 }
 
 function draw() {

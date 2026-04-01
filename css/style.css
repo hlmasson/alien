@@ -34,15 +34,16 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width:1000px;
+    width:900px;
     overflow: hidden;
     }
     ul li{
     float:left;
+    justify-content:center;
     }
     ul li a{
     text-align: center;
-    display: block;
+    display: inline-block;
     color:#00DD1C;
     font-size:14px;
     font-weight: bold;
@@ -50,6 +51,7 @@ body {
     }
 
     div{
-    width:1000;
+    width:800;
+    padding:20px;
     margin: auto;
-}
+    }
