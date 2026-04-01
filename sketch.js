@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  a = createA('homepage.html', 'ENTER');
+  a = createA('https://cdn.jsdelivr.net/npm/p5@2.2.1/lib/p5.min.js', 'ENTER');
 }
 
 function draw() {
