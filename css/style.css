@@ -6,8 +6,10 @@
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    margin-left:100px;
+    align-items: top;
+    margin-top: 150px;
     min-height: 100vh;
     background: #000000;
 
@@ -17,23 +19,30 @@ body {
     font-style: italic;
     font-size:40px;
     text-align: center;
-
     }
+
+    h2{
+    color: #00DD1C;
+    font-weight: bold;
+    font-style: italic;
+    font-size:40px;
+    text-align: left;
+    }
+
     p{
     color: #00DD1C;
     text-align:left;
     font-size:18px;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-bottom: 100px;
     margin-right: 250px;
-    margin-left: 250px;
-}
+    margin-left: 0px;
     }
 
     ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 10px;
+    padding: 0px;
     width:900px;
     overflow: hidden;
     }
@@ -51,7 +60,14 @@ body {
     }
 
     div{
-    width:800;
-    padding:20px;
+    width:1000px;
+    padding:0px;
     margin: auto;
+    }
+
+    hr{
+    stroke-width:5px;
+    color:#00DD1C;
+    margin-top: 25px;
+    margin-right: 200px
     }
