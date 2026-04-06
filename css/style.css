@@ -9,7 +9,7 @@ body {
     justify-content: left;
     margin-left:100px;
     align-items: top;
-    margin-top: 150px;
+    margin-top: 100px;
     min-height: 100vh;
     background: #000000;
 
@@ -25,16 +25,16 @@ body {
     color: #00DD1C;
     text-align:left;
     font-size:18px;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    margin-right: 250px;
-    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     }
 
     ul {
     list-style-type: none;
-    margin-top: 10px;
-    padding: 0px;
+    margin-top: 25px;
+    padding-bottom: 0px;
     width:900px;
     overflow: hidden;
     }
@@ -52,15 +52,33 @@ body {
     }
 
     div{
-    width:1000px;
-    padding:0px;
-    margin: auto;
+    width:75%;
+    margin-top: 10px;
     }
 
     hr{
     stroke-width:5px;
     color:#00DD1C;
-    margin-top: 25px;
-    margin-right: 200px
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 2px
+    }
+
+    br{
+    margin-top:10px;
+    margin-bottom: 10;
+    }
+
+    footer{
+        position:fixed;
+        justify-items:center;
+        width: 50%;
+        left:25%;
+        right:25%;
+        bottom:10px;
+        text-align:center;
+    }
+    .myFooter{
+        text-align: center;
     }
 }
