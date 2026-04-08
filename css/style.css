@@ -21,13 +21,30 @@ body {
     text-align: left;
     }
 
+    h2{
+    color: #00DD1C;
+    font-size:25px;
+    text-align: left;
+    }
+
     p{
     color: #00DD1C;
     text-align:left;
     font-size:18px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 200px;
+    margin-left: 10px;
+    }
+
+    .pdfLink{
+    color: #00DD1C;
+    font-style: underline;
+    text-align:left;
+    font-size:18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 200px;
     margin-left: 10px;
     }
 
@@ -57,11 +74,18 @@ body {
     }
 
     hr{
-    stroke-width:5px;
     color:#00DD1C;
     margin-top: 20px;
     margin-bottom: 40px;
     margin-right: 2px
+    }
+
+    .blogWeight{
+    color:#00DD1C;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    margin-left: 5px;
     }
 
     br{
@@ -70,7 +94,7 @@ body {
     }
 
     footer{
-        position:fixed;
+        position:static;
         justify-items:center;
         width: 50%;
         left:25%;
@@ -80,5 +104,8 @@ body {
     }
     .myFooter{
         text-align: center;
+        background: #000000;
+        background-color: #000000;
+        margin-right: 10px;
     }
 }

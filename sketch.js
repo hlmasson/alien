@@ -11,7 +11,7 @@ function draw() {
   textFont('Times New Roman')
   fill('#00DD1C')
   textSize(45)
-  text("Welcome to my home page",windowWidth/2-50,250)
+  text("Welcome to my home page",windowWidth/2-80,250)
   
   a.style('color','#00DD1C');
   a.attribute('align', 'center');
