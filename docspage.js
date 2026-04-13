@@ -5,7 +5,7 @@ let myInput;
 let showText;
 
 function preload() {
-a = createA('/libraries/ALIEN ZINE.pdf', 'DOCUMENT 1 TRANSLATED','_blank');
+a = createA('libraries/ALIEN ZINE.pdf', 'DOCUMENT 1 TRANSLATED','_blank');
 }
 
 function setup() {
@@ -18,10 +18,12 @@ function setup() {
 function draw() {
 fill("#00DD1C")
 textFont("Times New Roman");
-if(showText);
-    text("text", 100,300);
-    a.style('color','#00DD1C');
-    a.position(110,450);
+textSize(18);
+    if (showText) {
+        text("text", 110,50);
+        a.style('color','#00DD1C');
+        a.position(110,450);
+    }
 }
 
 function checkText() {
