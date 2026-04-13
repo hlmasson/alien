@@ -2,10 +2,10 @@
 
 let docs;
 let myInput;
-let showText = false;
+let showText;
 
 function preload() {
-  lady = loadImage("lady.jpg");
+a = createA('/libraries/ALIEN ZINE.pdf', 'DOCUMENT 1 TRANSLATED','_blank');
 }
 
 function setup() {
@@ -18,7 +18,10 @@ function setup() {
 function draw() {
 fill("#00DD1C")
 textFont("Times New Roman");
-  image(lady, windowWidth / 2, windowHeight/2, 1000, 750);
+if(showText);
+    text("text", 100,300);
+    a.style('color','#00DD1C');
+    a.position(110,450);
 }
 
 function checkText() {
