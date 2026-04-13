@@ -37,6 +37,13 @@ body {
     margin-left: 10px;
     }
 
+    a{
+    color: #00DD1C;
+    text-align:left;
+    font-size:18px;
+    font-style: underline;
+    }
+
     .pdfLink{
     color: #00DD1C;
     font-style: underline;
@@ -108,4 +115,11 @@ body {
         background-color: #000000;
         margin-right: 10px;
     }
+.blogImage {
+  float: right;
+  margin: 0px 0px 15px 20px;
+  border-style: solid;
+  border-color:#00DD1C;
+  border-width: 1px;
+}
 }
