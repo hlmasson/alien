@@ -35,18 +35,40 @@ Retrieved 2026-04-08, License - CC BY-SA 4.0
     <a class="pdfLink" href="./pdfFile.pdf" target="blank">DOCUMENT 2</a>  
     <br>
     <br>
-   <script src="docspage.js"></script>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <p>
+   
+<input type="text" id="password" value="password">
+<button onclick="myFunction()">ENTER</button>
+
+<p id="demo"></p>
+<br>
+<br>
+<script>
+
+function myFunction() {
+var passkey = "TRUTH";
+var z = document.getElementById("password").value;
+
+	if (z==passkey) {
+      var x = "correct";
+      document.getElementById("demo").innerHTML = x;
+        const z = document.createElement("A");
+     const t1 = document.createTextNode("DOCUMENT 1 -- DECODED");
+    z.setAttribute("href", "https://www.w3schools.com");
+    z.appendChild(t1);
+    document.body.appendChild(z);
+    
+     const t2 = document.createTextNode("DOCUMENT 2 -- DECODED");
+    z.setAttribute("href", "https://geocities.restorativland.org/");
+    z.appendChild(t2);
+    document.body.appendChild(z);
+
+	} else {
+      var x = "incorrect";
+      document.getElementById("demo").innerHTML = x;
+    }
+}
+</script>
     <br>
 </div>
 <div>
