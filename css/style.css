@@ -143,3 +143,13 @@ body {
 #bgtest{
     background-color: blue;
 }
+marquee{
+    color: #00DD1C;
+    font-weight: bold;
+    font-style: italic;
+    font-size:20px;
+    text-align: left;  
+}
+#secretText{
+    color: #000000;
+}

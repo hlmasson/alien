@@ -50,21 +50,20 @@ var passkey = "TRUTH";
 var z = document.getElementById("password").value;
 
 	if (z==passkey) {
-      var x = "correct";
+      var x = "correct.";
       document.getElementById("demo").innerHTML = x;
         const z = document.createElement("A");
      const t1 = document.createTextNode("DOCUMENT 1 -- DECODED");
     z.setAttribute("href", "https://www.w3schools.com");
     z.appendChild(t1);
     document.body.appendChild(z);
-
-     const t2 = document.createTextNode("DOCUMENT 2 -- DECODED");
+    const t2 = document.createTextNode("DOCUMENT 2 -- DECODED");
     z.setAttribute("href", "https://geocities.restorativland.org/");
     z.appendChild(t2);
     document.body.appendChild(z);
 
 	} else {
-      var x = "incorrect";
+      var x = "incorrect.";
       document.getElementById("demo").innerHTML = x;
     }
 }
