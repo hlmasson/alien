@@ -32,7 +32,7 @@ body {
     font-size:20px;
     text-align: center;
     }
-
+/*positioning homepage elements*/
     .home{
     margin:10px;
     justify-content: center;
@@ -40,6 +40,7 @@ body {
     float:none;
     width:30%;
     }
+
     .homelist{
     margin-top: 5px;
     margin-left:10px;
@@ -75,6 +76,7 @@ body {
     margin-left: 10px;
     }
 
+    /*styling navbar*/
     ul {
     list-style-type: none;
     margin-top: 25px;
@@ -82,10 +84,12 @@ body {
     width:900px;
     overflow: hidden;
     }
+
     ul li{
     float:left;
     justify-content:center;
     }
+
     ul li a{
     text-align: center;
     display: inline-block;
@@ -107,6 +111,7 @@ body {
     margin-right: 2px
     }
 
+    /*for horizontal rule on blog page*/
     .blogWeight{
     color:#00DD1C;
     margin-top: 15px;
@@ -121,35 +126,44 @@ body {
     }
 
     footer{
-        position:static;
-        justify-items:center;
-        width: 50%;
-        left:25%;
-        right:25%;
-        bottom:10px;
-        text-align:center;
+    position:static;
+    justify-items:center;
+    width: 50%;
+    left:25%;
+    right:25%;
+    bottom:10px;
+    text-align:center;
     }
+
     .myFooter{
-        text-align: center;
-        margin-right: 10px;
+    text-align: center;
+    margin-right: 10px;
     }
-.blogImage {
-  float: right;
-  margin: 0px 0px 15px 20px;
-  border-style: solid;
-  border-color:#00DD1C;
-  border-width: 1px;
-}
-#bgtest{
+
+    /*styling images on blog page*/
+    .blogImage {
+    float: right;
+    margin: 0px 0px 15px 20px;
+    border-style: solid;
+    border-color:#00DD1C;
+    border-width: 1px;
+    }
+
+    /*used to test if elements are appearring correctly and aren't hidden by black background*/
+    #bgtest{
     background-color: blue;
-}
-marquee{
+    }
+
+    /*styling homepage marquee*/
+    marquee{
     color: #00DD1C;
     font-weight: bold;
     font-style: italic;
     font-size:20px;
     text-align: left;  
-}
-#secretText{
+    }
+
+    /*ID for hidden text on about page*/
+    #secretText{
     color: #000000;
-}
+    }
