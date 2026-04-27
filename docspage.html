@@ -29,17 +29,16 @@ Posted by AL Mahmud
 Retrieved 2026-04-08, License - CC BY-SA 4.0
 -->
 
-    <a class="pdfLink" href="./pdfFile.pdf" target="blank">DOCUMENT 1</a> 
+    <a class="pdfLink" href="libraries/DOCUMENT A.pdf" target="blank">DOCUMENT A</a> 
     <br>
     <br>
-    <a class="pdfLink" href="./pdfFile.pdf" target="blank">DOCUMENT 2</a>  
+    <a class="pdfLink" href="libraries/DOCUMENT B.pdf" target="blank">DOCUMENT B</a>  
     <br>
     <br>
     <p>
-   
+   <div>
 <input type="text" id="password" value="password">
 <button onclick="myFunction()">ENTER</button>
-
 <p id="demo"></p>
 <br>
 <br>
@@ -53,15 +52,16 @@ var z = document.getElementById("password").value;
 	if (z==passkey) {
       var x = "correct.";
       document.getElementById("demo").innerHTML = x;
-        const z = document.createElement("A");
-     const t1 = document.createTextNode("DOCUMENT 1 -- DECODED");
-    z.setAttribute("href", "https://www.w3schools.com");
-    z.appendChild(t1);
-    document.body.appendChild(z);
-    const t2 = document.createTextNode("DOCUMENT 2 -- DECODED");
-    z.setAttribute("href", "https://geocities.restorativland.org/");
-    z.appendChild(t2);
-    document.body.appendChild(z);
+        const z1 = document.createElement("A");
+     const t1 = document.createTextNode("DOCUMENT A -- DECODED -/");
+    z1.setAttribute("href", "documenta.html");
+    z1.appendChild(t1);
+    document.body.appendChild(z1);
+    const z2 = document.createElement("A");
+    const t2 = document.createTextNode("/- DOCUMENT B -- DECODED");
+    z2.setAttribute("href", "documentb.html");
+    z2.appendChild(t2);
+    document.body.appendChild(z2);
 
 	} else {
       var x = "incorrect.";
@@ -69,7 +69,7 @@ var z = document.getElementById("password").value;
     }
 }
 </script>
-    <br>
+</div>
 </div>
 <div>
 <footer>

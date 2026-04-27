@@ -34,13 +34,14 @@
 
 <p id="demo"></p>
 <!--Popup code: https://www.w3schools.com/js/js_popup.asp Accessed: 4/20/26-->
+<!--Open window: https://www.w3schools.com/jsref/met_win_open.asp Accessed: 4/26/26-->
 <script>
 function myFunction() {
     var myWindow;
   var txt;
   if (confirm("There is nothing here. There are no extraterrestrials")) {
     txt = "There is nothing.";
-    myWindow = window.close("https://hlmasson.github.io/alien/encounter2.html")
+     window.open("https://hlmasson.github.io/alien/error.html","","_parent");
   } else {
     txt = "Please exit the site.";
     myWindow = window.close("encounter2.html")
